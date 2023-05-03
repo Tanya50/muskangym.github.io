@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FitnessZone reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>"FitnessZone: Your Ultimate Destination for Fitness and Health"</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">Fitness</span>Zone</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              Your Ultimate Destination for Fitness and Health
+            </h1>
+            <p class="description">
+            We provide a variety of fitness options: Yoga, Aerobics, Zumba Classes, Strength classes and many more
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>
+            <button class="btn btn__secondary">Our services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">Fitness</span>Zone
+            </h2>
+            <p>
+Our Fitness Zone provides a wide range of services that cater to the physical fitness needs of individuals. From state-of-the-art equipment and expert trainers to personalized workout plans and nutrition guidance, a gym offers a comprehensive approach to achieving optimal health and wellness. Members have access to a variety of exercise options, including cardio and strength training, group fitness classes, and specialized programs such as yoga and Pilates. In addition to the physical benefits, gyms also provide a supportive community atmosphere where members can connect with like-minded individuals and find motivation and accountability in their fitness journey. With all of these services and resources at their fingertips, a gym provides the ideal environment for individuals to achieve their health and fitness goals.
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+We provide a range of courses and programs to help individuals achieve their fitness goals. Some of the most common courses offered by gyms include:Personal Training,Group Fitness Classes,Nutrition Counseling: Many gyms offer nutrition counseling to help individuals develop a healthy and sustainable diet plan that supports their fitness goals.
+Specialized Programs:We also offer specialized programs such as weight loss, muscle building, and sports-specific training.
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-bodybuilding.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+Bodybuilding is a form of exercise that involves using resistance training to build muscle mass and strength in the body. Bodybuilders typically follow a structured workout program that targets specific muscle groups using weights, machines, or bodyweight exercises. In addition to resistance training, bodybuilders often focus on proper nutrition and diet to support muscle growth and recovery. The ultimate goal of bodybuilding is to develop a muscular and well-defined physique, and many bodybuilders compete in bodybuilding competitions to showcase their physical accomplishments. Bodybuilding can have a range of benefits, including improved strength and endurance, increased self-confidence, and improved overall health and wellness.        
+          </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-crossfit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+The goal of CrossFit is to develop overall physical fitness, including strength, endurance, power, speed, agility, balance, coordination, and accuracy. CrossFit workouts are performed in a group setting, which creates a supportive and competitive atmosphere that helps to motivate participants to push themselves to their limits.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-gymnastic.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Gymnastics is a sport that involves a series of physical exercises, typically performed on equipment such as bars, beams, rings, and mats. Gymnastics requires strength, agility, flexibility, balance, and coordination, and is often considered a highly competitive and challenging sport. It is also a popular form of exercise for individuals who want to improve their overall fitness and physical abilities.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-fitness.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Fitness refers to a person's overall physical health and ability to perform physical activities. It encompasses a variety of factors such as cardiorespiratory endurance, muscular strength and endurance, flexibility, and body composition. Regular exercise and a healthy diet are key components of achieving and maintaining fitness. Benefits of fitness include improved physical health, mental health, quality of life, and a reduced risk of chronic diseases such as heart disease, diabetes, and obesity.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-TRX.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    TRX is a form of suspension training that uses a system of ropes and straps to perform bodyweight exercises. Developed by a former Navy SEAL, TRX is designed to build strength, balance, flexibility, and core stability using only the individual's body weight and gravity as resistance. TRX exercises can be customized for all fitness levels, making it a popular choice for people of all ages and abilities.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Boxing is a combat sport that involves two people punching each other with gloved fists in a boxing ring. It is also a popular form of exercise that can help improve overall fitness and physical health. Boxing workouts typically include a combination of cardio and strength training exercises such as shadowboxing, heavy bag work, speed bag drills, jump rope, and bodyweight exercises. 
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer on monthly and yearly packages.
+            </h2>
+            <p class="margin-bottom">
+              These discounts can include reduced initiation fees, discounted membership rates, free trial periods, referral bonuses, and seasonal promotions. Additionally, many gyms offer discounts for students, seniors, military personnel, and corporate partnerships.
+            </p>
+            <button class="btn btn__primary">Become a member</button>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR Trainers
+            </h2>
+            <p
+Expertise and Certification: Our Trainers  have certifications and qualifications in exercise science, personal training, or related fields, which enables them to design and implement safe and effective exercise programs.
+
+Personalized Approach: Our trainers take a personalized approach to fitness, designing customized workout plans based on an individual's fitness level, goals, and preferences.
+
+Motivation and Encouragement: Trainers provide motivation and encouragement to help individuals stay on track and push themselves to achieve their goals.
+
+Communication Skills: Our trainers have excellent communication skills, which enable them to explain exercises and techniques clearly and effectively, and to listen to and address their clients' concerns and questions.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img
+                src="img/coache-1.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">MARK BERTUL</p>
+                <p class="c-title">Body Building</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/coache-2.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">serio mike</p>
+                <p class="c-title">Cardio Expert</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/coache-3.jpg"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">Gaurav Kumar</p>
+                <p class="c-title">Fitness Coach</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            what people say
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-1.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                This trainer is always available to answer the questions and provide feedback, which makes me feel more accountable and motivated to stick to this program."
+              </p>
+
+              <div class="name">Rahul Singh</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-2.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                "This trainer pushes the people to work hard and stay committed, but is also really supportive and encouraging."
+              </p>
+              <div class="name">Mahira</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FEEDBACK -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">FitnessZone</span>@Muskan Uppal</h2>
+
+          <ul class="contact-data">
+            <li class="location">5 Garden Street,BlackTown NSW</li>
+            <li class="phone">+91-9876543210</li>
+            <li class="email">Fitnesszone@gmail.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Newsletters can be an effective way to keep members engaged and informed, and to foster a sense of community and connection among members.
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
